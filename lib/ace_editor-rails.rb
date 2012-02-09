@@ -1,4 +1,4 @@
-require "ace_editor-rails/version"
+require "ace_editor-rails/rails"
 
 module AceEditor
   module Rails

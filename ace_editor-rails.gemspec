@@ -4,9 +4,9 @@ require File.expand_path('../lib/ace_editor-rails/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Utkarsh Kukreti"]
   gem.email         = ["utkarshkukreti@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Ace Editor JS files for Rails 3.1 Asset Pipeline}
+  gem.summary       = %q{Ace Editor JS files for Rails 3.1 Asset Pipeline}
+  gem.homepage      = "http://github.com/utkarshkukreti/ace_editor-rails"
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
